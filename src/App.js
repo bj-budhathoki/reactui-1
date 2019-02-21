@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import AppStyles from "./AppStyles";
-import Hero from "./containers/Hero";
+import Home from "./containers/Home";
 class App extends Component {
   render() {
     return (
       <>
         <AppStyles />
-        <Hero />
+        <Home />
       </>
     );
   }

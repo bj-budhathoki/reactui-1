@@ -16,8 +16,7 @@ export const HeroTitle = styled.h1`
   color: ${colors.secondaryColor};
   text-transform: capitalize;
   letter-spacing: 0.2rem;
-  font-size: ${fonts.headline.largeHeadline};
-  font-weight: ${fonts.weights.regular};
+  font-size: ${fonts.headline.xlargeHeadline};
   color: ${colors.primaryColor};
   letter-spacing: 0.2rem;
 `;
@@ -29,11 +28,25 @@ export const HeroSubTitle = styled.h4`
   text-transform: capitalize;
   letter-spacing: 0.2rem;
 `;
+
 export const HeroText = styled.p`
-  width: 30%;
+  width: 40%;
   color: ${colors.secondaryColor};
-  font-size: ${fonts.size.small};
+  font-size: ${fonts.size.xSmall};
   font-weight: ${fonts.weights.regular};
   word-break: break-all;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 `;
+export const ButtonWrapper = styled.div`
+  display: flex;
+  margin-top: 2rem;
+  button:hover {
+    cursor: pointer;
+  }
+  span {
+    color: ${colors.secondaryColor};
+    font-size: ${fonts.size.medium};
+    font-weight: ${fonts.weights.regular};
+  }
+`;
+export const ShowcaseSection = styled.section``;
