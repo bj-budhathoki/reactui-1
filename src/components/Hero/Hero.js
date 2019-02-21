@@ -12,6 +12,7 @@ const Hero = () => {
   return (
     <>
       <HeroWrapper bg={bg}>
+        <HeroTitle>Perfection</HeroTitle>
         <HeroSubTitle>in every shape</HeroSubTitle>
         <HeroText>
           Our brand new Fishbite Superbike Express 2018 with perfection in every
